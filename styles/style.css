@@ -2,3 +2,13 @@
 .test__style{
   color: red;
 }
+
+.root{
+  background-color: beige;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header{
+  outline: solid red 1px;
+}
