@@ -1,0 +1,41 @@
+.header{
+  display: grid;
+  grid-template-columns: 931px auto auto;
+
+  outline: solid red 1px;
+  margin-top: 12px;
+  max-width: 1376px;
+
+}
+
+.header__logo{
+  width: 70px;
+  height: 74px;
+}
+
+.header__nav{
+
+}
+
+.header__nav-item{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+}
+
+.header__nav-item:first-child{
+  margin-top: 0;
+}
+
+.header__phone{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+}

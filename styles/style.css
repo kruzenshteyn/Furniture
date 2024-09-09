@@ -1,14 +1,11 @@
-
+@import "header/header.css";
 .test__style{
   color: red;
 }
 
 .root{
-  background-color: beige;
-  max-width: 1280px;
+  background-color: white;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
-.header{
-  outline: solid red 1px;
-}
