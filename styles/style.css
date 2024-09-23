@@ -2,6 +2,11 @@
 @import "header/header.css";
 @import "main/main.css";
 @import "hero/hero.css";
+@import "about/about.css";
+@import "steps/steps.css";
+@import "projects/projects.css";
+@import "testimonials/testimonials.css";
+@import "order/order.css";
 @import "footer/footer.css";
 
 
