@@ -29,15 +29,84 @@
       <div class="projects__container">
         <div class="projects__container-item">
           <img src="./images/project_2.png" alt="Картинка 1" class="projects__image">
-          <div class="projects__about projects__about_visiable">
+          <div class="projects__about  ">
             <p class="projects__text">Тумба под телевизор</p>
             <div class="projects__arrow"></div>
           </div>          
         </div>
+        <div class="projects__container-item">
+          <img src="./images/project_3.png" alt="Картинка 1" class="projects__image">
+          <div class="projects__about projects__about_invisiable">
+            <p class="projects__text">Тумба под телевизор</p>
+            <div class="projects__arrow"></div>
+          </div>          
+        </div>      
+        <div class="projects__container-item">
+          <img src="./images/project_4.png" alt="Картинка 1" class="projects__image">
+          <div class="projects__about projects__about_invisiable">
+            <p class="projects__text">Тумба под телевизор</p>
+            <div class="projects__arrow"></div>
+          </div>          
+        </div>  
+        <div class="projects__container-item">
+          <img src="./images/project_4.png" alt="Картинка 1" class="projects__image">
+                  
+        </div> 
+        <div class="projects__container-item">
+          <img src="./images/project_4.png" alt="Картинка 1" class="projects__image">
                    
+        </div> 
       </div>
     </section>
-    <section>testimonials</section>
+    <section class="testimonials">
+      <img src="./images/order_1.png" alt="Картинка формы" class="testimonials__image">
+      <div class="testimonials__container">
+        <h2 class="testimonials__title">Хотите заказать проект?</h2>
+        <p class="testimonials__text">Оставьте заявку, и мы вам перезвоним</p>
+        <form id="testimonials__form" class="testimonials__form">
+          <input 
+            type="text" 
+            name="testimonials__input-name"
+            id="testimonials__input-name"
+            class="testimonials__input"
+            placeholder="Имя"
+            minlength="1" 
+            maxlength="50" 
+            required
+            >
+          <input 
+            type="text" 
+            name="testimonials__input-email"
+            id="testimonials__input-email"
+            class="testimonials__input"
+            placeholder="E-mail"
+            minlength="1" 
+            maxlength="50" 
+            
+            >
+          <input 
+            type="text" 
+            name="testimonials__input-phone"
+            id="testimonials__input-phone"
+            class="testimonials__input"
+            placeholder="Телефон"
+            minlength="10" 
+            maxlength="20" 
+            
+            >
+          <button 
+            type="submit" 
+            class="testimonials__button"
+            id="testimonials__button"
+            name="btnSubmit"
+          >Отправить заявку</button>
+        </form>
+        <div class="testimonials__logos">
+          <img src="./images/App Store 1.png" alt="Яблоко" class="testimonials__logo">
+          <img src="./images/Google Play 1.png" alt="Гугл" class="testimonials__logo">
+        </div>
+      </div>
+    </section>
     <section>orderform</section>
   </main>
   <footer class="footer">
@@ -53,6 +122,6 @@
       <a href="https://web.telegram.org/" class="footer__text footer__social-text">ТЕЛЕГРАМ</a>
     </div>
   </footer>
-  
+  <script src="/scripts.js" type="text/javascript"></script>
 </body>
 </html>

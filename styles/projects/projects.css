@@ -16,30 +16,35 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: stretch;
   gap: 20px 20px;
-
 }
 
 .projects__container-item{
-
-}
-
-.projects__image{
   
 }
 
-.projects__about{  
-  display: none;
-  background: rgba(33, 37, 41, 0.5);
-  height: 66px;
-  padding: 0 20px;
-  margin: 0;
+.projects__image{  
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
 }
 
-.projects__about_visiable{
+.projects__about{  
+  position: relative;
+  top: -69px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing:border-box;  
+  background: rgba(33, 37, 41, 0.5);
+  height: 66px;
+  padding: 20px 20px;
+  margin: 0;
+}  
+
+.projects__about_invisiable{
+  display: none;
 }
+
 
 .projects__text{
   font-family: 'Roboto';
@@ -50,6 +55,7 @@
   /* or 22px */
 
   color: #FFFFFF;
+  margin: 0;
 }
 
 .projects__arrow{
