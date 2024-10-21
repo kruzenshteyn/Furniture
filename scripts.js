@@ -5,12 +5,16 @@ const b = 10;
 
 let c = a + b;
 
+
+
 console.log(c);
 
-if(c == '510')
-  console.log("Text");
-else
-  console.log("Number");
+// if(c == '510')
+//   console.log("Text");
+// else
+//   console.log("Number");
+
+let res = (c == '510') ? console.log("Text") : console.log("Number");
 
 for(i = 0; i < 2; i++)
 {
@@ -66,3 +70,4 @@ form.onsubmit = function(e){
   console.log(res.name);
   console.log('Form is submitted');
 }
+
